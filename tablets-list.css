@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner-container{
+    background-color: #76BA99;
+    
+}
+.main{
+    width: 700px;
+    height: 750px;
+    border-radius: 25px;
+    background-color: #76BA99;
+}
+.receive{
+    text-align: center;
+    font-family: Roboto Condensed;
+   font-weight: 50px;
+   padding-top: 15px;
+   color: #0A2647;
+}
+.button1{
+    background-color: #0A2647;
+    color: #76BA99;
+    font-weight: bold;
+}
+.follow-us-section {
+    background-color: #76BA99;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon {
+
+    color: #76BA99;
+    font-size: 35px;
+}
+.foot{
+    background-attachment: fixed;
+}
+.submit{
+    margin-left: 30px;
+}
+
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+.kk{
+    background-color: #76BA99;
+    border-radius: 10px;
+}
+.submit-button{
+  background-color: rgb(30, 30, 77);
+  border-radius: 5px;
+  color:white;
+  font-family: Roboto;
+  padding: 12px;
+  width:80px;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    
+    <script>
+        var Medicines = ["Dolo-650","Dart","Nyse","Crocin","Dexona","Comboflame","Losratna","Gulsil","Abilify; Barbuda","Baclofen","Bctrim","Bactrim DS","Banzel","Canasa","Caplytia","Delzoil","Delsylm","Dezicol","Elavil","Eliquis","Emgality","Estrace","Fentayl","Fioricet","Firazyr","Fish Oil &amp; Herzegovina","Garrdasil","Garlic","Gas-X ","Gaviscon","Paracetmol","Viagra","Zool"];
+    </script>
+        
+    <link rel="stylesheet" href="tablets-list.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light banner-container ">
+        <a class
+="navbar-brand" href="#"><img src="https://res.cloudinary.com/dqc90vi99/image/upload/v1672987917/Free-Logo-Maker-Get-Custom-Logo-Designs-in-Minutes-Looka-removebg-preview_1_ixu9ni.png" class="navbar-logo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto mr-4">
+            <a class="nav-link active" href="file:///F:/Workspace/healthcare.html">
+            Home
+            <span class="sr-only">(current)</span>
+            </a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blood
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="file:///F:/Workspace/blooddonation-page.html" >For Blood</a>
+                <a class="dropdown-item" href="file:///F:/Workspace/plateletdonate.html">For Platelets</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Medicines
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="file:///F:/Workspace/tablets-list.html">Tablets</a>
+                <a class="dropdown-item" href="#">Emergency</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <a class="nav-link" href="file:///F:/Workspace/consultancy.html">Consultancy</a>
+            <a class="nav-link" href="#">Help</a>
+        </div>
+        </div>
+    </nav>
+    <br>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial;  
+}
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+</style>
+</head> 
+<div class="container">
+  <div xlass="row">
+<div class="kk m-5 p-5 text-center">
+
+    <h2 class="m-3">Medicine You Needed</h2>
+
+    <p class="m-3">Enter Your Medicine Name</p>
+
+    <!--Make sure the form has the autocomplete function switched off:-->
+    <div class="d-flex flex-row justify-content-center">
+      <form autocomplete="on" action="/action_page.php">
+        <div class="d-flex flex-row ">
+      <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="Medicines" placeholder="Medicines">
+      </div>
+      <a href="https://www.1mg.com"><button type="submit" class="submit-button ml-4">Submit</button></a>
+    </div>
+    </div>
+  </div>
+    
+    </form>
+</div>
+</div>    
+  <script>
+  function autocomplete(inp, arr) {
+    /*the autocomplete function takes two arguments,
+    the text field element and an array of possible autocompleted values:*/
+    var currentFocus;
+    /*execute a function when someone writes in the text field:*/
+    inp.addEventListener("input", function(e) {
+        var a, b, i, val = this.value;
+        /*close any already open lists of autocompleted values*/
+        closeAllLists();
+        if (!val) { return false;}
+        currentFocus = -1;
+        /*create a DIV element that will contain the items (values):*/
+        a = document.createElement("DIV");
+        a.setAttribute("id", this.id + "autocomplete-list");
+        a.setAttribute("class", "autocomplete-items");
+        /*append the DIV element as a child of the autocomplete container:*/
+        this.parentNode.appendChild(a);
+        /*for each item in the array...*/
+        for (i = 0; i < arr.length; i++) {
+          /*check if the item starts with the same letters as the text field value:*/
+          if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+            /*create a DIV element for each matching element:*/
+            b = document.createElement("DIV");
+            /*make the matching letters bold:*/
+            b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+            b.innerHTML += arr[i].substr(val.length);
+            /*insert a input field that will hold the current array item's value:*/
+            b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+            /*execute a function when someone clicks on the item value (DIV element):*/
+            b.addEventListener("click", function(e) {
+                /*insert the value for the autocomplete text field:*/
+                inp.value = this.getElementsByTagName("input")[0].value;
+                /*close the list of autocompleted values,
+                (or any other open lists of autocompleted values:*/
+                closeAllLists();
+            });
+            a.appendChild(b);
+          }
+        }
+    });
+    /*execute a function presses a key on the keyboard:*/
+    inp.addEventListener("keydown", function(e) {
+        var x = document.getElementById(this.id + "autocomplete-list");
+        if (x) x = x.getElementsByTagName("div");
+        if (e.keyCode == 40) {
+          /*If the arrow DOWN key is pressed,
+          increase the currentFocus variable:*/
+          currentFocus++;
+          /*and and make the current item more visible:*/
+          addActive(x);
+        } else if (e.keyCode == 38) { //up
+          /*If the arrow UP key is pressed,
+          decrease the currentFocus variable:*/
+          currentFocus--;
+          /*and and make the current item more visible:*/
+          addActive(x);
+        } else if (e.keyCode == 13) {
+          /*If the ENTER key is pressed, prevent the form from being submitted,*/
+          e.preventDefault();
+          if (currentFocus > -1) {
+            /*and simulate a click on the "active" item:*/
+            if (x) x[currentFocus].click();
+          }
+        }
+    });
+    function addActive(x) {
+      /*a function to classify an item as "active":*/
+      if (!x) return false;
+      /*start by removing the "active" class on all items:*/
+      removeActive(x);
+      if (currentFocus >= x.length) currentFocus = 0;
+      if (currentFocus < 0) currentFocus = (x.length - 1);
+      /*add class "autocomplete-active":*/
+      x[currentFocus].classList.add("autocomplete-active");
+    }
+    function removeActive(x) {
+      /*a function to remove the "active" class from all autocomplete items:*/
+      for (var i = 0; i < x.length; i++) {
+        x[i].classList.remove("autocomplete-active");
+      }
+    }
+    function closeAllLists(elmnt) {
+      /*close all autocomplete lists in the document,
+      except the one passed as an argument:*/
+      var x = document.getElementsByClassName("autocomplete-items");
+      for (var i = 0; i < x.length; i++) {
+        if (elmnt != x[i] && elmnt != inp) {
+          x[i].parentNode.removeChild(x[i]);
+        }
+      }
+    }
+    /*execute a function when someone clicks in the document:*/
+    document.addEventListener("click", function (e) {
+        closeAllLists(e.target);
+    });
+  }
+
+  /*An array containing all the country names in the world:*/
+  var countries = ["Dolo-650","Dart","Nyse","Crocin","Dexona","Comboflame","Losratna","Gulsil","Abilify; Barbuda","Baclofen","Bctrim","Bactrim DS","Banzel","Canasa","Caplytia","Delzoil","Delsylm","Dezicol","Elavil","Eliquis","Emgality","Estrace","Fentayl","Fioricet","Firazyr","Fish Oil &amp; Herzegovina","Garrdasil","Garlic","Gas-X ","Gaviscon","Paracetmol","Viagra","Zool"];
+
+  /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+  autocomplete(document.getElementById("myInput"), countries);
+  </script>
+    <footer class="container-fluid foot">
+                    <div class="follow-us-section pt-5 pb-5">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <h1 class="follow-us-section-heading">Follow Us</h1>
+                            </div>
+                            <div class="col-12">
+                              <div class="d-flex flex-row justify-content-center">
+                                <div class="follow-us-icon-container">
+                                  <i class="fab fa-twitter icon"></i>
+                                </div>
+                                <div class="follow-us-icon-container">
+                                  <i class="fab fa-instagram icon"></i>
+                                </div>
+                                <div class="follow-us-icon-container">
+                                  <i class="fab fa-facebook icon"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </footer>
+</body>
+</html>

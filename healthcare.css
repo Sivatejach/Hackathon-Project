@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.home1-img{
+    height:500px;
+
+}
+.Blood-container{
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+   
+}
+
+
+.navbar-logo{
+    height: 65px;
+    width: 250px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner1-container{
+    background-color:#76BA9e;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.banner-container{
+    background-color:#76BA9e;
+    
+    
+}
+.banner-text{
+    font-family: poppins;
+    font-size:35px;
+    color: #OA2647;
+
+}
+
+.follow-us-section {
+  background-color: #76BA99;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color: #76BA99;
+  font-size: 35px;
+}
+.foot{
+  background-attachment: fixed;
+}
+
+.explore-about-section {
+    background-color: white;
+  }
+  .about-us-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .about-item-image {
+    border-radius: 16px;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+  }
+  .about-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  .about-item-link {
+    color:  white;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .about-item-card {
+    border-radius: 16px;
+ 
+  }
+  .about-us-card-below{
+    background-color:  #76BA99;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.Blood-container{
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+
+.navbar-logo{
+    height: 65px;
+    width: 250px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner-container{
+    background-color: #76BA99;
+}
+.banner-text{
+    font-family:poppins;
+    font-size:35px;
+    color: whitesmoke;
+}
+.Bloodpage-background-img{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/69/85/37/1000_F_269853776_Q0RM1oBMbGAjKKd165rtyjs1APg2hhax.jpg");
+ 
+    background-size: cover;
+
+}
+.blood-contact-container{
+    border-width: 5px;
+  
+    border-color: white;
+    text-align: center;
+    width: auto;
+   
+
+}
+.margin-container{
+    margin: 200px;
+}
+.blood-contact-heading{
+    font-family: serif;
+    COLOR: #0A2647;
+}
+.blood-donate-button{
+    
+    font-family: Roboto;
+  
+    border-width: 0px;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    background-color: #0A2647;
+    color: #76BA99;
+   
+}
+.follow-us-section {
+    background-color: #76BA99;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon {
+    color: #76BA99;
+    font-size: 35px;
+  }
+  .foot{
+    background-attachment: fixed;
+  }

@@ -1,0 +1,4 @@
+blood : file:///F:/Workspace/blooddonation-page.html
+platelets : file:///F:/Workspace/plateletdonate.html
+Tablets : file:///F:/Workspace/tablets-list.html
+consultancy 3 : file:///F:/Workspace/consultancy.html
